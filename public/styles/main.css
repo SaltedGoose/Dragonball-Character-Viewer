@@ -1,0 +1,42 @@
+.custom-navbar {
+    background-color: #FF7D29;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: Bold;
+}
+
+#navbar-img {
+    background-color: #FF7D29;
+}
+
+#main-div {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#form-div, #display-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+  #main-div {
+    flex-direction: column;
+    height: auto;
+  }
+
+  #form-div, #display-div {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+  }
+}
